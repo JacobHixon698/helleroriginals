@@ -1,73 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Heller Originals</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-<style>
-body{margin:0;font-family:Inter,sans-serif;background:#f6f2ea;color:#222}
-header{padding:90px 20px;text-align:center}
-.stamp{display:inline-block;border:3px solid #222;border-radius:50%;padding:40px 55px;transform:rotate(-4deg)}
-.stamp h1{font-family:"Cormorant Garamond",serif;font-size:52px;letter-spacing:4px;margin:0}
-.stamp p{letter-spacing:4px;margin:8px 0}
-.btn{display:inline-block;margin:10px;padding:14px 28px;border:2px solid #222;color:#222;text-decoration:none}
-.btn:hover{background:#222;color:#fff}
-section{max-width:1100px;margin:auto;padding:70px 20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}
-.card{background:#fff;padding:18px}
-.placeholder{height:280px;background:#ddd;display:flex;align-items:center;justify-content:center}
-footer{text-align:center;padding:40px;background:#e8dfd2}
-</style>
+    <!-- Basic Page Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Heller Originals | Art with Character</title>
+
+    <meta name="description" content="Heller Originals is a creative studio based in Boston, Massachusetts, specializing in original artwork, custom designs, and colorful creative projects.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JavaScript -->
+    <script src="js/script.js" defer></script>
 </head>
+
 <body>
-<header>
-<div class="stamp">
-<h1>HELLER</h1>
-<p>ORIGINALS</p>
-<p>EST. 2026</p>
-</div>
-<h2>Original Paintings • Fine Art Prints • Commissions</h2>
-<p>Thoughtfully created artwork inspired by quiet moments and everyday beauty.</p>
-<a class="btn" href="#">Shop Originals</a>
-<a class="btn" href="#">Shop Prints</a>
-</header>
 
-<section>
-<h2>Featured Collection</h2>
-<div class="grid">
-<div class="card"><div class="placeholder">Painting</div><h3>Original No. 01</h3><p>Placeholder description.</p></div>
-<div class="card"><div class="placeholder">Painting</div><h3>Original No. 02</h3><p>Placeholder description.</p></div>
-<div class="card"><div class="placeholder">Painting</div><h3>Limited Print</h3><p>Placeholder description.</p></div>
-</div>
-</section>
+    <!-- ==========================
+         Navigation
+    =========================== -->
 
-<section>
-<h2>About Maria</h2>
-<p>Replace this section with Maria's story. Share inspiration, process, and what makes each painting unique.</p>
-</section>
+    <header>
 
-<section>
-<h2>Commissions</h2>
-<p>Accept a limited number of custom commissions each year. Describe the process and invite inquiries.</p>
-<a class="btn" href="#">Request a Commission</a>
-</section>
+        <nav class="navbar">
 
-<section>
-<h2>From the Studio</h2>
-<div class="grid">
-<div class="card"><h3>Behind the Canvas</h3></div>
-<div class="card"><h3>New Collection</h3></div>
-<div class="card"><h3>Studio Journal</h3></div>
-</div>
-</section>
+            <a href="#" class="logo">
 
-<footer>
-<h3>HELLER ORIGINALS</h3>
-<p>Boston, Massachusetts</p>
-<p>Instagram • Contact • Newsletter</p>
-<p>© 2026 Heller Originals</p>
-</footer>
-</body></html>
+                <img src="assets/logo.png" alt="Heller Originals Logo">
+
+            </a>
+
+            <ul class="nav-links">
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ==========================
+         Hero Section
+    =========================== -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <h1>
+                    Art with Character.
+                </h1>
+
+                <p>
+
+                    Creative artwork, custom designs, and original pieces inspired by imagination and crafted with passion.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#about" class="button primary">
+
+                        Learn More
+
+                    </a>
+
+                    <a href="#contact" class="button secondary">
+
+                        Contact
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================
+             About
+        =========================== -->
+
+        <section id="about">
+
+            <div class="section-container">
+
+                <h2>Every Original Starts With An Idea</h2>
+
+                <p>
+
+                    Heller Originals creates colorful artwork and creative designs that bring ideas to life. Every project is built with personality, craftsmanship, and attention to detail.
+
+                </p>
+
+                <p>
+
+                    Located in Boston, Massachusetts.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================
+             Contact
+        =========================== -->
+
+        <section id="contact">
+
+            <div class="section-container">
+
+                <h2>Let's Create Something Original</h2>
+
+                <p>
+
+                    Interested in working together or have an idea you'd like to bring to life?
+
+                </p>
+
+                <a href="mailto:hello@helleroriginals.com" class="button primary">
+
+                    Get In Touch
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ==========================
+         Footer
+    =========================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <img src="assets/logo.png" alt="Heller Originals Logo">
+
+            <p>
+
+                Boston, Massachusetts
+
+            </p>
+
+            <p>
+
+                © 2026 Heller Originals. All rights reserved.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
